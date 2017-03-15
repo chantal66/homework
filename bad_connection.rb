@@ -21,6 +21,7 @@ until ready_to_quit
 
   if input == ''
     puts 'HELLO?'
+    sleep(0.8)
     puts "HELLO, THIS IS A GROCERY STORE!"
   elsif input == 'goodbye' && counter == 0
       
